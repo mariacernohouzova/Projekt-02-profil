@@ -15,7 +15,85 @@ tlačítko twitter          #1da1f2
 */
 
 
+.foto {
+  width: 500px;
+  height: auto;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: 880px;
+  top: 320px;
+  background-color: #b92e81 ;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px black;
+ transform: scale(150%);
+
+  }
+
+.jmeno {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.profil {
+  width: 500px;
+  min-height: 1000px;
+  margin: 0 auto;
+  background-color: #31363b ; 
+  box-shadow: 0 5px 10px black;
+
+}
+
 body {
   background-color: #bdc3c7;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
+.obsah {
+  font-size: 25px;
+ padding: 50px;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+.odkazy {
+  list-style-type: none;
+  color: white;
+  padding: 0;
+  
+ 
+}
+.odkazy li a{
+  display: flex;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-top:  1px solid #bdc3c7;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  
+ 
+ 
+
+}
+
+.odkazy li a:hover {background: #1da1f2
+}
+
+
+
+
+
+
+
+
+
+
 
